@@ -1,0 +1,1379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 5.4.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+
+<script id="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"shuoxux.github.io","root":"/","scheme":"Pisces","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
+  </script>
+
+  <meta property="og:type" content="website">
+<meta property="og:title" content="Shuoxu&#39;s Blog">
+<meta property="og:url" content="https://shuoxux.github.io/index.html">
+<meta property="og:site_name" content="Shuoxu&#39;s Blog">
+<meta property="og:locale" content="en_US">
+<meta property="article:author" content="shuoxu">
+<meta name="twitter:card" content="summary">
+
+<link rel="canonical" href="https://shuoxux.github.io/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : true,
+    isPost : false,
+    lang   : 'en'
+  };
+</script>
+
+  <title>Shuoxu's Blog</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+<!-- hexo injector head_end start -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css">
+<!-- hexo injector head_end end --></head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="Toggle navigation bar">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <h1 class="site-title">Shuoxu's Blog</h1>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+
+<nav class="site-nav">
+  <ul id="menu" class="main-menu menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>Home</a>
+
+  </li>
+        <li class="menu-item menu-item-tags">
+
+    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>Tags<span class="badge">9</span></a>
+
+  </li>
+        <li class="menu-item menu-item-categories">
+
+    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>Categories<span class="badge">3</span></a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>Archives<span class="badge">18</span></a>
+
+  </li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>Search
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off"
+           placeholder="Searching..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div id="search-result">
+  <div id="no-result">
+    <i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content index posts-expand">
+            
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
+    <link itemprop="mainEntityOfPage" href="https://shuoxux.github.io/2021/08/03/hello-world/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="shuoxu">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Shuoxu's Blog">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2021/08/03/hello-world/" class="post-title-link" itemprop="url">Hello World</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+
+              <time title="Created: 2021-08-03 21:07:37" itemprop="dateCreated datePublished" datetime="2021-08-03T21:07:37+08:00">2021-08-03</time>
+            </span>
+
+          
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">Valine: </span>
+    
+    <a title="valine" href="/2021/08/03/hello-world/#valine-comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/2021/08/03/hello-world/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
+    <link itemprop="mainEntityOfPage" href="https://shuoxux.github.io/2021/07/29/test2021/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="shuoxu">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Shuoxu's Blog">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2021/07/29/test2021/" class="post-title-link" itemprop="url">test2021</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+
+              <time title="Created: 2021-07-29 22:05:41" itemprop="dateCreated datePublished" datetime="2021-07-29T22:05:41+08:00">2021-07-29</time>
+            </span>
+
+          
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">Valine: </span>
+    
+    <a title="valine" href="/2021/07/29/test2021/#valine-comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/2021/07/29/test2021/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
+    <link itemprop="mainEntityOfPage" href="https://shuoxux.github.io/2021/07/29/test/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="shuoxu">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Shuoxu's Blog">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2021/07/29/test/" class="post-title-link" itemprop="url">test</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+
+              <time title="Created: 2021-07-29 21:41:49" itemprop="dateCreated datePublished" datetime="2021-07-29T21:41:49+08:00">2021-07-29</time>
+            </span>
+
+          
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">Valine: </span>
+    
+    <a title="valine" href="/2021/07/29/test/#valine-comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/2021/07/29/test/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <p><img src="https://latex.codecogs.com/gif.latex?%5Csum_%7Bi=0%7D%5En"></p>
+<p>输入：<img src="https://latex.codecogs.com/svg.image?\inline&space;\left\{&space;a,b,c\right\}" title="\inline \left\{ a,b,c\right\}" /></p>
+<p>输出 ：<img src="https://latex.codecogs.com/svg.image?\inline&space;\left\{&space;a,b,c\right\}" title="\inline \left\{ a,b,c\right\}" /></p>
+<p>对于<img src="https://latex.codecogs.com/svg.image?\inline&space;\left\{&space;a,b,c\right\}" title="\inline \left\{ a,b,c\right\}" />有<img src="https://latex.codecogs.com/svg.image?\inline&space;\left\{&space;a,b,c\right\}" title="\inline \left\{ a,b,c\right\}" />这是可以的<img src="https://latex.codecogs.com/svg.image?\inline&space;\left\{&space;a,b,c\right\}" title="\inline \left\{ a,b,c\right\}" /></p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
+    <link itemprop="mainEntityOfPage" href="https://shuoxux.github.io/2020/11/02/BP/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="shuoxu">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Shuoxu's Blog">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2020/11/02/BP/" class="post-title-link" itemprop="url">BP</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+
+              <time title="Created: 2020-11-02 14:28:33" itemprop="dateCreated datePublished" datetime="2020-11-02T14:28:33+08:00">2020-11-02</time>
+            </span>
+
+          
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">Valine: </span>
+    
+    <a title="valine" href="/2020/11/02/BP/#valine-comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/2020/11/02/BP/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h2 id="This-doc-shows-the-easy-understanding-of-BP"><a href="#This-doc-shows-the-easy-understanding-of-BP" class="headerlink" title="This doc shows the easy understanding of BP"></a>This doc shows the easy understanding of BP</h2><h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h2><p><a target="_blank" rel="noopener" href="https://blog.csdn.net/weixin_38347387/article/details/82936585">反向传播——通俗易懂</a></p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
+    <link itemprop="mainEntityOfPage" href="https://shuoxux.github.io/2020/10/06/%E7%89%B9%E5%BE%81%E9%80%89%E6%8B%A9%E4%B8%8E%E7%A8%80%E7%96%8F%E5%AD%A6%E4%B9%A0/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="shuoxu">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Shuoxu's Blog">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2020/10/06/%E7%89%B9%E5%BE%81%E9%80%89%E6%8B%A9%E4%B8%8E%E7%A8%80%E7%96%8F%E5%AD%A6%E4%B9%A0/" class="post-title-link" itemprop="url">机器学习 第十一章 特征选择与稀疏学习</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+
+              <time title="Created: 2020-10-06 13:40:46" itemprop="dateCreated datePublished" datetime="2020-10-06T13:40:46+08:00">2020-10-06</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">In</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Machine-Learning/" itemprop="url" rel="index"><span itemprop="name">Machine Learning</span></a>
+                </span>
+            </span>
+
+          
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">Valine: </span>
+    
+    <a title="valine" href="/2020/10/06/%E7%89%B9%E5%BE%81%E9%80%89%E6%8B%A9%E4%B8%8E%E7%A8%80%E7%96%8F%E5%AD%A6%E4%B9%A0/#valine-comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/2020/10/06/%E7%89%B9%E5%BE%81%E9%80%89%E6%8B%A9%E4%B8%8E%E7%A8%80%E7%96%8F%E5%AD%A6%E4%B9%A0/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h2 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h2><p>&emsp;&emsp;本篇是周志华西瓜书机器学习笔记，第十一章特征选择与稀疏学习。</p>
+<h2 id="子集搜索与评价"><a href="#子集搜索与评价" class="headerlink" title="子集搜索与评价"></a>子集搜索与评价</h2><p>&emsp;&emsp;特征选择的过程必须确保不丢失重要特征。“相关特征”，“无关特征”，“冗余特征”。<br><br/>&emsp;&emsp;子集搜索：前向搜索，后向搜索，双向搜索，且都是“贪心”的。<br><br/>&emsp;&emsp;子集评价：可用信息熵评价。</p>
+<h2 id="过滤式选择"><a href="#过滤式选择" class="headerlink" title="过滤式选择"></a>过滤式选择</h2><p>&emsp;&emsp;先对数据集进行特征选择,然后再训练学习器,特征选择过程与后续学习器无关.Relief(Relevant Features)是一种著名的过滤式选择方法.该方法设计了一个“相关统计量”来度量特征的重要性，适用于二分类问题，Relief-F适用于多分类问题。</p>
+<h2 id="包裹式选择"><a href="#包裹式选择" class="headerlink" title="包裹式选择"></a>包裹式选择</h2><p>&emsp;&emsp;直接把最终将要使用的学习器的性能作为特征子集的评价标准.因此产生的最终学习器的性能比过滤式特征选择更好,但训练时的计算开销大得多.LVW(Las Vegas Wrapper)是一个典型的包裹式特征选择方法,它在拉斯维加斯方法框架下使用随机策略来进行子集搜索,并以最终分类器的误差为特征子集评价准则.</p>
+<h2 id="嵌入式选择与-L-1-正则化"><a href="#嵌入式选择与-L-1-正则化" class="headerlink" title="嵌入式选择与$L_1$正则化"></a>嵌入式选择与$L_1$正则化</h2><p>&emsp;&emsp;特征选择过程与学习器训练过程融为一体,两者在同一个优化过程中完成.<br><br/>&emsp;&emsp;$L_1$范数和$L_2$范数正则化都有助于降低过拟合的风险，且点着更容易获得”稀疏”(sparse)解。$L_1$正则化问题的求解可使用近端梯度下降(Proximal Gradient Descent, PGD)</p>
+<h2 id="稀疏表示与字典学习"><a href="#稀疏表示与字典学习" class="headerlink" title="稀疏表示与字典学习"></a>稀疏表示与字典学习</h2><p>&emsp;&emsp;为普通稠密表达的样本找到合适的字典，将样本转化为合适的稀疏表示形式，从而使学习任务得以简化，模型复杂度得以降低，通常称为“字典学习”(dictionary learning)，亦称“稀疏编码”(sparse coding).</p>
+<h2 id="压缩感知-compressed-sensing"><a href="#压缩感知-compressed-sensing" class="headerlink" title="压缩感知(compressed sensing)"></a>压缩感知(compressed sensing)</h2><p>&emsp;&emsp;图像或声音的数字信号通常在时域上不具有稀疏性，但经过傅里叶变换，余弦变换，小波变换等处理后会转化为频域上的稀疏信号。压缩感知分为“感知测量”和“重构恢复”两个阶段。可利用矩阵补全(matrix completion)等方法来解决推荐系统之类的协同过滤(collaborative filtering)任务.</p>
+<h2 id="References"><a href="#References" class="headerlink" title="References"></a>References</h2><p>周志华，机器学习<br><br/><a target="_blank" rel="noopener" href="https://datawhalechina.github.io/pumpkin-book/#/">南瓜书PumpkinBook</a><br><br/><a target="_blank" rel="noopener" href="https://www.cnblogs.com/limitlessun/p/8505647.html#_label5">《机器学习》(周志华)西瓜书读书笔记(完结)</a></p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
+    <link itemprop="mainEntityOfPage" href="https://shuoxux.github.io/2020/10/06/%E9%99%8D%E7%BB%B4%E5%92%8C%E5%BA%A6%E9%87%8F%E5%AD%A6%E4%B9%A0/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="shuoxu">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Shuoxu's Blog">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2020/10/06/%E9%99%8D%E7%BB%B4%E5%92%8C%E5%BA%A6%E9%87%8F%E5%AD%A6%E4%B9%A0/" class="post-title-link" itemprop="url">机器学习 第十章 降维和度量学习</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+
+              <time title="Created: 2020-10-06 10:37:38" itemprop="dateCreated datePublished" datetime="2020-10-06T10:37:38+08:00">2020-10-06</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">In</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Machine-Learning/" itemprop="url" rel="index"><span itemprop="name">Machine Learning</span></a>
+                </span>
+            </span>
+
+          
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">Valine: </span>
+    
+    <a title="valine" href="/2020/10/06/%E9%99%8D%E7%BB%B4%E5%92%8C%E5%BA%A6%E9%87%8F%E5%AD%A6%E4%B9%A0/#valine-comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/2020/10/06/%E9%99%8D%E7%BB%B4%E5%92%8C%E5%BA%A6%E9%87%8F%E5%AD%A6%E4%B9%A0/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h2 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h2><p>&emsp;&emsp;本篇是周志华西瓜书机器学习笔记，第十章降维与度量学习。</p>
+<h2 id="k近邻学习"><a href="#k近邻学习" class="headerlink" title="k近邻学习"></a>k近邻学习</h2><p>&emsp;&emsp;k近邻(k-Nearest Neighbor, KNN)学习是一种常用的监督学习算法,工作机制为:给定测试样本,基于某种距离度量找出训练集中与其最靠近的k个训练样本,然后基于这k个”邻居”的信息来预测.在分类任务中使用投票法,在回归任务中使用平均法.k近邻是”懒惰学习”(lazy learning)的代表,此类学习技术在训练阶段仅仅是把样本保存起来,训练时间开销为零,待收到测试样本后再进行处理;相应地,在训练阶段就对样本进行学习的处理的方法,称为”急切学习”(eager learning).</p>
+<h2 id="低维嵌入"><a href="#低维嵌入" class="headerlink" title="低维嵌入"></a>低维嵌入</h2><p>&emsp;&emsp;在高维情形下出现的数据样本稀疏,距离计算困难等问题,是所有机器学习算法共同面临的严重障碍,被称为”维数灾难”(curse of dimensionality),缓解维数灾难的一个重要的途径是降维(dimention reduction),即通过某种数学变换将原始高维属性空间转变为一个低维”子空间”(subspace).<br><br/>&emsp;&emsp;”多维缩放”(Mulitiple Dimensional Scaling, MDS)是一种经典的降维方法,可以将原始空间中样本之间的距离在低维空间得以保持.</p>
+<blockquote>
+<hr>
+<p>输入:距离矩阵$\boldsymbol{D}\in \mathbb{R}^{m\times m}$,其元素$dist_{ij}$为样本$\boldsymbol{x}<em>i$到$\boldsymbol{x}<em>j$的距离;<br><br/>&emsp;&emsp;低维空间维数$d’$.<br><br/>过程:<br><br/>1:根据式(10.7)~(10.9)计算$dist</em>{i\cdot}^2$,$dist</em>{\cdot j}^2$,$dist_{\cdot \cdot}^2$;<br><br/>2:根据式(10.10)计算矩阵$\boldsymbol{B}$<br><br/>3:对矩阵$\boldsymbol{B}$做特征值分解;<br><br/>4:取$\boldsymbol{\hat{\Lambda}}$为第$d’$个最大特征值所构成的对角矩阵,$\boldsymbol{\tilde{V}}$为相应的特征向量矩阵.<br><br/>输出:矩阵$\boldsymbol{\tilde{V}}$$\boldsymbol{\hat{\Lambda}}^{1/2}\in\mathbb{R}^{m\times d’}$,每行是一个样本的低维坐标.</p>
+<hr>
+</blockquote>
+<p>$$MDS算法$$</p>
+<h2 id="主成分分析"><a href="#主成分分析" class="headerlink" title="主成分分析"></a>主成分分析</h2><p>&emsp;&emsp;主成分分析(Principal Component Analysis, PCA)是常用的一种降维方法</p>
+<blockquote>
+<hr>
+<p>输入:样本集$D=\left{\boldsymbol{x}_1,\boldsymbol{x}_2,…,\boldsymbol{x}_m\right}$;<br><br/>&emsp;&emsp;低维空间维数$d’$.<br><br/>过程:<br><br/>1:对所有样本进行中心化:$\boldsymbol{x_i}\leftarrow\boldsymbol{x}<em>i-\frac{1}{m}\sum</em>{i=1}^m\boldsymbol{x}_i$;<br><br/>2:计算样本的协方差矩阵$\boldsymbol{X}\boldsymbol{X}^T$;<br><br/>3:对协方差矩阵$\boldsymbol{X}\boldsymbol{X}^T$做特征值分解;<br><br/>4:取最大的$d’$个特征值所对应的特征向量$\boldsymbol{w}_1$,$\boldsymbol{w}_2$,…,$\boldsymbol{w}_d’$<br><br/>输出:投影矩阵$\boldsymbol{W}^*=$$(\boldsymbol{w}_1$,$\boldsymbol{w}_2$,…,$\boldsymbol{w}_d’)$.</p>
+<hr>
+</blockquote>
+<p>$$PCA算法$$</p>
+<p>&emsp;&emsp;低维空间和高维空间不同,因为对应于最小的$d-d’$个特征值的特征向量被舍弃了;舍弃这部分信息之后能使样本的采样密度增大,同时能够起到降噪的效果.</p>
+<h2 id="核化线性降维"><a href="#核化线性降维" class="headerlink" title="核化线性降维"></a>核化线性降维</h2><p>&emsp;&emsp;非线性降维的一种常用方法,是基于核技巧对线性降维方法进行”核化”(kernelized).如核主成分分析(kernelized PCA, KPCA)</p>
+<h2 id="流行学习-manifold-learning"><a href="#流行学习-manifold-learning" class="headerlink" title="流行学习(manifold learning)"></a>流行学习(manifold learning)</h2><p>&emsp;&emsp;等度量映射<br><br/>&emsp;&emsp;局部线性嵌入</p>
+<h2 id="度量学习"><a href="#度量学习" class="headerlink" title="度量学习"></a>度量学习</h2><p>&emsp;&emsp;度量学习直接尝试”学习”出一个合适的距离度量,方法有近邻成分分析(Neighbourhood Compnent Analysis, NCA).</p>
+<h2 id="References"><a href="#References" class="headerlink" title="References"></a>References</h2><p>周志华，机器学习<br><br/><a target="_blank" rel="noopener" href="https://datawhalechina.github.io/pumpkin-book/#/">南瓜书PumpkinBook</a><br><br/><a target="_blank" rel="noopener" href="https://www.cnblogs.com/limitlessun/p/8505647.html#_label5">《机器学习》(周志华)西瓜书读书笔记(完结)</a></p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
+    <link itemprop="mainEntityOfPage" href="https://shuoxux.github.io/2020/10/05/DecisionTree/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="shuoxu">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Shuoxu's Blog">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2020/10/05/DecisionTree/" class="post-title-link" itemprop="url">机器学习 第四章 决策树(Decision Tree)</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+
+              <time title="Created: 2020-10-05 15:53:02" itemprop="dateCreated datePublished" datetime="2020-10-05T15:53:02+08:00">2020-10-05</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">In</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Machine-Learning/" itemprop="url" rel="index"><span itemprop="name">Machine Learning</span></a>
+                </span>
+            </span>
+
+          
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">Valine: </span>
+    
+    <a title="valine" href="/2020/10/05/DecisionTree/#valine-comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/2020/10/05/DecisionTree/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h2 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h2><p>&emsp;&emsp;本篇是周志华西瓜书机器学习笔记，第四章决策树。</p>
+<h2 id="基本流程"><a href="#基本流程" class="headerlink" title="基本流程"></a>基本流程</h2><p>&emsp;&emsp;决策树是基于树结构来进行决策的。</p>
+<blockquote>
+<hr>
+<p>输入：训练集<img src="https://latex.codecogs.com/svg.image?\inline&space;\left\{&space;(x_1,y_1),(x_2,y_2),...,(x_m,y_m)\right\}"/></p>
+</blockquote>
+<blockquote>
+<p><br/>&emsp;&emsp;&emsp;属性集<img src="https://latex.codecogs.com/svg.image?\inline&space;A=\left\{a_1,a_2,...,a_d\right\}" title="\inline A=\left\{a_1,a_2,...,a_d\right\}" /><br>$A=\{a_1,a_2,…,a_d\}$<br><br/>过程：函数$TreeGenerate(D,A)$<br><br/>1:生成节点node;<br><br/>2:$\boldsymbol{if}D$样本全属于同一类别$C$ $\boldsymbol{then}$<br><br/>3:&emsp;&emsp;将node标记为$C$类叶节点；$\boldsymbol{return}$<br><br/>4:$\boldsymbol{end\ if}$<br><br/>5:$\boldsymbol{if}$ $A=\varnothing$ $\boldsymbol{OR}$ $D$中样本在$A$上取值相同 $\boldsymbol{then}$<br><br/>6:&emsp;&emsp;将node表计为叶节点，其类别标记为$D$中样本数最多的类；$\boldsymbol{return}$<br><br/>7:$\boldsymbol{end\ if}$<br><br/>8:从$A$中选择最优划分属性$a_*$;<br><br/>9:$\boldsymbol{for}\ a_*$的每一个值$a_<em>^v\ \boldsymbol{do}$<br><br/>10:&emsp;&emsp;为node生成一个分支；令$D_v$表示$D$在$a_</em>$上取值为$a_*^v$的样本子集；<br><br/>11:&emsp;&emsp;$\boldsymbol{if}\ D_v为空\boldsymbol{then}$<br><br/>12:&emsp;&emsp;&emsp;&emsp;将分支结点标记为叶结点，其类别标记为$D$中样本最多的类；$\boldsymbol{return}$<br><br/>13:&emsp;&emsp;$\boldsymbol{else}$<br><br/>14:&emsp;&emsp;&emsp;&emsp;以$TreeGenerate(D_v,A \backslash\left{a_*\right})$为分支结点<br><br/>15:&emsp;&emsp;$\boldsymbol{end\ if}$<br><br/>16:$\boldsymbol{end\ for}$<br><br/>输出：以node为根节点的一棵决策树</p>
+<hr>
+</blockquote>
+<p><br/>$$决策树学习基本算法$$</p>
+<h2 id="划分选择"><a href="#划分选择" class="headerlink" title="划分选择"></a>划分选择</h2><p>&emsp;&emsp;信息增益:一般而言，信息增益越大，则意味着使用属性a来划分所获得的”纯度提升”越大。ID3决策树学习算法使用信息增益为准则来划分属性。<br><br/>&emsp;&emsp;增益率：信息增益准则对可取数值较多的属性有所偏好，增益率可减少这种偏好带来的不利影响。C4.5使用”增益率”来选择最优划分属性，增益率准则可对取值数目较少的属性有所偏好，C4.5先从候选划分属性中找出信息增益高于平均水平的属性，再从中选择增益率最高的。<br><br/>&emsp;&emsp;基尼系数：CART决策树使用“基尼系数”(Gini index)来选择划分属性。基尼系数反应了数据集随机抽取的两个样本不一致的概率，基尼系数越小，数据集的纯度越高。</p>
+<h2 id="剪枝处理"><a href="#剪枝处理" class="headerlink" title="剪枝处理"></a>剪枝处理</h2><p>&emsp;&emsp;剪枝是决策树学习算法对付“过拟合”的主要手段。决策树剪枝的基本策略有“预剪枝”和“后剪枝”。<br><br/>&emsp;&emsp;预剪枝是指在决策树生成的过程中，对每个结点在划分前先进行估计，若当前结点的划分不能带来决策树泛化性能提升，则停止划分并将当前结点标记为叶结点；可以降低过拟合地风险，减少训练时间开销和测试时间开销；基于“贪心”，有欠拟合地风险。<br><br/>&emsp;&emsp;后剪枝则是先从训练集生成一棵完整的决策树，然后自底向上地对非叶结点进行考察，若将该结点对应地子树替换为叶结点能带来决策树泛化性能提升，则将该子树替换为叶结点。后剪枝决策树地欠拟合风险小，泛化性能优于剪枝决策树；训练开销比较大。</p>
+<h2 id="连续与缺失值"><a href="#连续与缺失值" class="headerlink" title="连续与缺失值"></a>连续与缺失值</h2><p>&emsp;&emsp;连续属性离散化技术；采用二分法(bi-partition)对连续属性进行处理。<br><br/>&emsp;&emsp;缺失值处理</p>
+<h2 id="多变量决策树"><a href="#多变量决策树" class="headerlink" title="多变量决策树"></a>多变量决策树</h2><h2 id="References"><a href="#References" class="headerlink" title="References"></a>References</h2><p>周志华，机器学习<br><br/><a target="_blank" rel="noopener" href="https://datawhalechina.github.io/pumpkin-book/#/">南瓜书PumpkinBook</a><br><br/><a target="_blank" rel="noopener" href="https://www.cnblogs.com/limitlessun/p/8505647.html#_label5">《机器学习》(周志华)西瓜书读书笔记(完结)</a></p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
+    <link itemprop="mainEntityOfPage" href="https://shuoxux.github.io/2020/10/05/SVM/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="shuoxu">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Shuoxu's Blog">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2020/10/05/SVM/" class="post-title-link" itemprop="url">机器学习 第六章 支持向量机(Support Vector Machine, SVM)</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+
+              <time title="Created: 2020-10-05 09:31:37" itemprop="dateCreated datePublished" datetime="2020-10-05T09:31:37+08:00">2020-10-05</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">In</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Machine-Learning/" itemprop="url" rel="index"><span itemprop="name">Machine Learning</span></a>
+                </span>
+            </span>
+
+          
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">Valine: </span>
+    
+    <a title="valine" href="/2020/10/05/SVM/#valine-comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/2020/10/05/SVM/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>&emsp;&emsp;本篇是周志华西瓜书机器学习笔记，第六章支持向量机。</p>
+<h2 id="间隔与支持向量"><a href="#间隔与支持向量" class="headerlink" title="间隔与支持向量"></a>间隔与支持向量</h2><p>&emsp;&emsp;距离超平面最近的几个训练样本点使得式(6.3)(原书)等号成立，被称为“支持向量”(support vector)，两个异类支持向量到超平面的距离之和被称为间隔。</p>
+<h2 id="对偶问题"><a href="#对偶问题" class="headerlink" title="对偶问题"></a>对偶问题</h2><p>通过拉个朗日乘子法求得支持向量机基本型的对偶问题(dual problem).</p>
+<h2 id="核函数"><a href="#核函数" class="headerlink" title="核函数"></a>核函数</h2><p>&emsp;&emsp;原始样本空间可能不存在一个能正确划分两类样本的超平面，可将样本从原始空间映射到一个更高维的特征空间，使得样本在这个特征空间内线性可分。如果原始空间是有限维的，即属性数有限，那么一定存在一个高维特征空间使样本可分。</p>
+<p>&emsp;&emsp;令$\phi(\boldsymbol{x})$表示将$\boldsymbol{x}$映射后的特征向量，则在特征空间中划分超平面所对应的模型可表示为<br>$$f(\boldsymbol{x})=\boldsymbol{w}^T\phi(\boldsymbol{x})+b$$<br><br/>&emsp;&emsp;核函数是用来简化计算高维特征中内积的一种方法。“核函数选择”成为支持向量机的最大变数。<br><br/>&emsp;&emsp;常用的核函数有：线性核、多项式核、高斯核、拉普拉斯核、Sigmoid核。此外还可以通过函数组合得到核函数。</p>
+<h2 id="软间隔与正则化"><a href="#软间隔与正则化" class="headerlink" title="软间隔与正则化"></a>软间隔与正则化</h2><p><br/>&emsp;&emsp;软间隔允许某些样本不满足约束，是缓解支持向量机过拟合的主要手段。常用的替代损失函数：hinge损失、指数损失(exponential loss)、对率损失(logistic loss)。</p>
+<h2 id="支持向量回归"><a href="#支持向量回归" class="headerlink" title="支持向量回归"></a>支持向量回归</h2><p><br/>&emsp;&emsp;支持向量回归容忍$f(\boldsymbol{x})$与$y$之间最多有$\epsilon$的偏差，即仅当$f(\boldsymbol{x})$与$y$之间的差别绝对值大于$\epsilon$时才计算损失。</p>
+<h2 id="核方法"><a href="#核方法" class="headerlink" title="核方法"></a>核方法</h2><p><br/>&emsp;&emsp;表示定理</p>
+<h2 id="References"><a href="#References" class="headerlink" title="References"></a>References</h2><p>周志华，机器学习<br><br/><a target="_blank" rel="noopener" href="https://datawhalechina.github.io/pumpkin-book/#/">南瓜书PumpkinBook</a><br><br/><a target="_blank" rel="noopener" href="https://www.cnblogs.com/limitlessun/p/8505647.html#_label5">《机器学习》(周志华)西瓜书读书笔记(完结)</a></p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
+    <link itemprop="mainEntityOfPage" href="https://shuoxux.github.io/2020/10/04/LatexMath/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="shuoxu">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Shuoxu's Blog">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2020/10/04/LatexMath/" class="post-title-link" itemprop="url">Latex Math</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+
+              <time title="Created: 2020-10-04 14:00:17" itemprop="dateCreated datePublished" datetime="2020-10-04T14:00:17+08:00">2020-10-04</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">In</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Tools/" itemprop="url" rel="index"><span itemprop="name">Tools</span></a>
+                </span>
+            </span>
+
+          
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">Valine: </span>
+    
+    <a title="valine" href="/2020/10/04/LatexMath/#valine-comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/2020/10/04/LatexMath/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h2 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h2><p>This article shows how to use latex to write math functions.</p>
+<h2 id="References"><a href="#References" class="headerlink" title="References"></a>References</h2><p><a target="_blank" rel="noopener" href="https://www.latex-project.org/">latex-project.org</a></p>
+<p><a target="_blank" rel="noopener" href="https://www.latex-project.org/help/documentation/amsldoc.pdf">User’s Guide for the amsmath Package (Version 2.1)</a></p>
+<p><a target="_blank" rel="noopener" href="https://www.caam.rice.edu/~heinken/latex/symbols.pdf">LATEX Mathematical Symbols</a></p>
+<p><a target="_blank" rel="noopener" href="https://en.wikibooks.org/wiki/LaTeX/Mathematics">LaTeX/Mathematics</a></p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
+    <link itemprop="mainEntityOfPage" href="https://shuoxux.github.io/2020/10/04/EnsembleLearning/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="shuoxu">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Shuoxu's Blog">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2020/10/04/EnsembleLearning/" class="post-title-link" itemprop="url">机器学习 第八章 集成学习(Ensemble Learning)</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+
+              <time title="Created: 2020-10-04 11:13:02" itemprop="dateCreated datePublished" datetime="2020-10-04T11:13:02+08:00">2020-10-04</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">In</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Machine-Learning/" itemprop="url" rel="index"><span itemprop="name">Machine Learning</span></a>
+                </span>
+            </span>
+
+          
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">Valine: </span>
+    
+    <a title="valine" href="/2020/10/04/EnsembleLearning/#valine-comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/2020/10/04/EnsembleLearning/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>&ensp;&ensp;&ensp;&ensp;本篇是周志华西瓜书机器学习笔记，第八章集成学习。</p>
+<h2 id="个体与集成"><a href="#个体与集成" class="headerlink" title="个体与集成"></a>个体与集成</h2><p>&ensp;&ensp;&ensp;&ensp;集成学习通过构建并结合多个学习器来完成学习任务。</p>
+<p>&ensp;&ensp;&ensp;&ensp;集成学习的一般结构是：先产生一组“个体学习器”(individual leaner)，再采用某种策略将他们结合起来。</p>
+<p>&ensp;&ensp;&ensp;&ensp;集成学习通过将多个学习器进行结合，常可获得比单一学习器显著优越的学习性能，这对“弱学习器(weak leaner)”尤为明显。</p>
+<p>&ensp;&ensp;&ensp;&ensp;根据个体学习器的生成方式，目前的集成学习方法大致可分为两类：个体学习器存在强依赖关系、必须串行生成的序列化方法(代表是Boosting);个体学习器间不存在强依赖关系、可同时生成的并行化方法(代表是Bagging和“随机森林”(Random Forest))</p>
+<h2 id="Boosting"><a href="#Boosting" class="headerlink" title="Boosting"></a>Boosting</h2><p>&ensp;&ensp;&ensp;&ensp;Boosting是一族可将弱学习器提升为强学习器的算法。算法机制：先从初始训练集训练出一个基学习器，再根据基学习器的表现对训练样本分布进行调整，使得先前样本在后续受到更多关注，然后基于调整后的样本分布来训练下一个基学习器；如此重复进行，直至基学习器数目达到事先制定的值T，最终将这T个额基学习器进行加权结合。</p>
+<p>&ensp;&ensp;&ensp;&ensp;标准AdaBoost算法适用于二分类任务，有多种推导方式，容易理解的是基于“加性模型”来最小化指数损失函数。</p>
+<blockquote>
+<hr>
+<p>输入：训练集$D=\{(\boldsymbol{x}_1,y_1),(\boldsymbol x_2,y_2),…,(\boldsymbol x_m,y_m)\}$<br>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;基学习算法$\mathfrak{L}$</p>
+<p>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;训练轮数$T$.</p>
+<p>过程:</p>
+<p>1: $\mathcal{D}=1/m$.</p>
+<p>2: $\boldsymbol{for}$ $t = 1,2,…,T$$ \boldsymbol{do}$</p>
+<p>3:&emsp;&emsp;$h_t=\mathfrak{L}(D,\mathcal{D}_t);$</p>
+<p>4:&emsp;&emsp;$\epsilon=P_{\boldsymbol{x}\sim\mathcal{D}}(h_t(\boldsymbol{x})\not ={f(\boldsymbol{x})})$;</p>
+<p>5:&emsp;&emsp;$\boldsymbol{if}\ \epsilon_t&gt;0.5\ \boldsymbol{then\ break}$</p>
+<p>6:&emsp;&emsp;$\alpha_t=\frac{1}{2}ln(\frac{1-\epsilon_t}{\epsilon_t})$;</p>
+<p>7:&emsp;&emsp;$\mathcal{D}_{t+1}(\boldsymbol{x})=\frac{\mathcal{D}_t(\boldsymbol{x})}{Z_t}\times<br>  \begin{cases}<br>    exp(-\alpha_t)       &amp; \quad \text{if } h_t(\boldsymbol{x})=f(\boldsymbol{x}) \<br>    exp(\alpha_t)  &amp; \quad \text{if }  h_t(\boldsymbol{x})\not=f(\boldsymbol{x})<br>  \end{cases}<br>  =\frac{\mathcal{D}_t(\boldsymbol{x})exp(-\alpha_tf(\boldsymbol{x})h_t(\boldsymbol{x}))}{Z_t}$  </p>
+<p>8: $\boldsymbol{end\ for}$</p>
+<p>输出：$H(\boldsymbol{x})=sign\big(\sum^T_{t=1}\alpha_th_t(\boldsymbol{x})\big)$</p>
+<hr>
+</blockquote>
+<p>$$Adaoost算法$$</p>
+<h2 id="Bagging与随机森林"><a href="#Bagging与随机森林" class="headerlink" title="Bagging与随机森林"></a>Bagging与随机森林</h2><p>&emsp;Bagging是并行式集成学习最著名的代表，它直接基于自主采样法(boostrap sampling)</p>
+<blockquote>
+<hr>
+<p>输入：训练集$D=\{(\boldsymbol x_1,y_1),(\boldsymbol x_2,y_2),…,(\boldsymbol x_m,y_m)\}$</p>
+<p>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;基学习算法$\mathfrak{L}$</p>
+<p>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;训练轮数$T$.</p>
+<p>过程:</p>
+<p>1: $\boldsymbol{for}\ t=1,2,…,T\ \boldsymbol{do}$</p>
+<p>2: &emsp;&emsp;$h_t=\mathfrak{L}(D,\mathcal{D}_{bs})$</p>
+<p>3: $\boldsymbol{end\ for}$</p>
+<p>输出：$H(\boldsymbol{x})=\underset{y\in\mathcal{Y}}{arg\ max}\sum^T_{t=1}\mathbb{I}(h_t(\boldsymbol{x})=y)$</p>
+<hr>
+</blockquote>
+<p>$$Bagging算法$$</p>
+<p>Bagging能不经修改地用于多分类、回归任务。</p>
+<p>随机森林(Random Forest，简称RF)是Bagging的一个扩展变体。RF在以决策树为基学习器构建Bagging集成的基础上，进一步在决策树的训练过程中引入了随机属性的选择。</p>
+<p>随机森林的训练效率通常优于Bagging，因为在个体决策的过程中，Bagging使用的是“确定型”决策树，在选择划分属性时要对所有节点的所有属性进行考察，而随机森林使用的“随机型”决策树则只需考察一个属性子集。</p>
+<h2 id="结合策略"><a href="#结合策略" class="headerlink" title="结合策略"></a>结合策略</h2><p>平均法：简单平均法、加权平均法</p>
+<p>投票法：绝对多数投票法、相对多数投票法、加权投票法</p>
+<h2 id="References"><a href="#References" class="headerlink" title="References"></a>References</h2><p>周志华，机器学习<br><br/><a target="_blank" rel="noopener" href="https://datawhalechina.github.io/pumpkin-book/#/">南瓜书PumpkinBook</a></p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+
+  
+  <nav class="pagination">
+    <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="extend next" rel="next" href="/page/2/"><i class="fa fa-angle-right" aria-label="Next page"></i></a>
+  </nav>
+
+
+
+          </div>
+          
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          Table of Contents
+        </li>
+        <li class="sidebar-nav-overview">
+          Overview
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <p class="site-author-name" itemprop="name">shuoxu</p>
+  <div class="site-description" itemprop="description"></div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">18</span>
+          <span class="site-state-item-name">posts</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/categories/">
+          
+        <span class="site-state-item-count">3</span>
+        <span class="site-state-item-name">categories</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tags/">
+          
+        <span class="site-state-item-count">9</span>
+        <span class="site-state-item-name">tags</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author motion-element">
+      <span class="links-of-author-item">
+        <a href="https://github.com/shuoxux" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;shuoxux" rel="noopener" target="_blank"><i class="fab fa-github fa-fw"></i>GitHub</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="mailto:shuoxux@outlook.com" title="E-Mail → mailto:shuoxux@outlook.com" rel="noopener" target="_blank"><i class="fa fa-envelope fa-fw"></i>E-Mail</a>
+      </span>
+  </div>
+
+
+
+      </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+        
+
+<div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2021</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">shuoxu</span>
+</div>
+  <div class="powered-by">Powered by <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://pisces.theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Pisces</a>
+  </div>
+
+        
+<div class="busuanzi-count">
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    <span class="post-meta-item" id="busuanzi_container_site_uv" style="display: none;">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-user"></i>
+      </span>
+      <span class="site-uv" title="Total Visitors">
+        <span id="busuanzi_value_site_uv"></span>
+      </span>
+    </span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item" id="busuanzi_container_site_pv" style="display: none;">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-eye"></i>
+      </span>
+      <span class="site-pv" title="Total Views">
+        <span id="busuanzi_value_site_pv"></span>
+      </span>
+    </span>
+</div>
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+  
+  <script src="/lib/anime.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
+
+
+<script src="/js/schemes/pisces.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+
+
+
+  
+  <script>
+    (function(){
+      var canonicalURL, curProtocol;
+      //Get the <link> tag
+      var x=document.getElementsByTagName("link");
+		//Find the last canonical URL
+		if(x.length > 0){
+			for (i=0;i<x.length;i++){
+				if(x[i].rel.toLowerCase() == 'canonical' && x[i].href){
+					canonicalURL=x[i].href;
+				}
+			}
+		}
+    //Get protocol
+	    if (!canonicalURL){
+	    	curProtocol = window.location.protocol.split(':')[0];
+	    }
+	    else{
+	    	curProtocol = canonicalURL.split(':')[0];
+	    }
+      //Get current URL if the canonical URL does not exist
+	    if (!canonicalURL) canonicalURL = window.location.href;
+	    //Assign script content. Replace current URL with the canonical URL
+      !function(){var e=/([http|https]:\/\/[a-zA-Z0-9\_\.]+\.baidu\.com)/gi,r=canonicalURL,t=document.referrer;if(!e.test(r)){var n=(String(curProtocol).toLowerCase() === 'https')?"https://sp0.baidu.com/9_Q4simg2RQJ8t7jm9iCKT-xh_/s.gif":"//api.share.baidu.com/s.gif";t?(n+="?r="+encodeURIComponent(document.referrer),r&&(n+="&l="+r)):r&&(n+="?l="+r);var i=new Image;i.src=n}}(window);})();
+  </script>
+
+
+
+
+  
+<script src="/js/local-search.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+      
+
+<script>
+  if (typeof MathJax === 'undefined') {
+    window.MathJax = {
+      loader: {
+        source: {
+          '[tex]/amsCd': '[tex]/amscd',
+          '[tex]/AMScd': '[tex]/amscd'
+        }
+      },
+      tex: {
+        inlineMath: {'[+]': [['$', '$']]},
+        tags: 'ams'
+      },
+      options: {
+        renderActions: {
+          findScript: [10, doc => {
+            document.querySelectorAll('script[type^="math/tex"]').forEach(node => {
+              const display = !!node.type.match(/; *mode=display/);
+              const math = new doc.options.MathItem(node.textContent, doc.inputJax[0], display);
+              const text = document.createTextNode('');
+              node.parentNode.replaceChild(text, node);
+              math.start = {node: text, delim: '', n: 0};
+              math.end = {node: text, delim: '', n: 0};
+              doc.math.push(math);
+            });
+          }, '', false],
+          insertedScript: [200, () => {
+            document.querySelectorAll('mjx-container').forEach(node => {
+              let target = node.parentNode;
+              if (target.nodeName.toLowerCase() === 'li') {
+                target.parentNode.classList.add('has-jax');
+              }
+            });
+          }, '', false]
+        }
+      }
+    };
+    (function () {
+      var script = document.createElement('script');
+      script.src = '//cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js';
+      script.defer = true;
+      document.head.appendChild(script);
+    })();
+  } else {
+    MathJax.startup.document.state(0);
+    MathJax.texReset();
+    MathJax.typeset();
+  }
+</script>
+
+    
+
+  
+
+
+<script>
+NexT.utils.loadComments(document.querySelector('#valine-comments'), () => {
+  NexT.utils.getScript('//unpkg.com/valine/dist/Valine.min.js', () => {
+    var GUEST = ['nick', 'mail', 'link'];
+    var guest = 'nick,mail,link';
+    guest = guest.split(',').filter(item => {
+      return GUEST.includes(item);
+    });
+    new Valine({
+      el         : '#valine-comments',
+      verify     : false,
+      notify     : false,
+      appId      : 'wwsDfqaSFnTD0Yt16j4UbH8D-gzGzoHsz',
+      appKey     : 'FpL7lxl8HCxu91WTgLps5qxg',
+      placeholder: "Just go go",
+      avatar     : 'mm',
+      meta       : guest,
+      pageSize   : '10' || 10,
+      visitor    : false,
+      lang       : '' || 'zh-cn',
+      path       : location.pathname,
+      recordIP   : false,
+      serverURLs : ''
+    });
+  }, window.Valine);
+});
+</script>
+
+</body>
+</html>
